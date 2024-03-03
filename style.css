@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #120E14;
+    color: #FFB0C0;
+    font-family: "Fira Mono", monospace;
+    font-size: 16px;
+    line-height: 1.25em;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    margin-bottom: 120px;
+    padding: 0px 40px;
+    max-width: 550px;
+    text-rendering: geometricPrecision;
+}
+
+a{
+    text-decoration: none;
+    color: #FFB0C0;
+}
+
+h2,h3{
+    font-size: 16px;
+    line-height: 1.25em;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding: 0px;
+    margin: 0px;
+}
+
+img{
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+header{
+    margin: 140px 0px 60px;
+    text-transform: uppercase;
+}
+
+nav{
+    margin-top: 20px;
+}
+
+header nav svg {
+    fill: #FFB0C0;
+    width: 14px;
+}
